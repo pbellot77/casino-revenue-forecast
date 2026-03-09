@@ -25,6 +25,12 @@ jobs:
       - name: Lint with ruff
         run: ruff check src/ api/ tests/
 
+      - name: Generate data
+        run: python data/generate_data.py
+
+      - name: Train model
+        run: python src/train.py
+
       - name: Run tests
         run: pytest tests/ -v
 
