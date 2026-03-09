@@ -1,7 +1,6 @@
 ﻿# tests/test_data.py
 
 import pandas as pd
-import pytest
 from pathlib import Path
 
 

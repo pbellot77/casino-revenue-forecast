@@ -6,9 +6,7 @@ import sys
 from pathlib import Path
 
 import joblib
-import numpy as np
 import pandas as pd
-from sklearn.metrics import mean_absolute_error
 
 logging.basicConfig(
     level=logging.INFO,

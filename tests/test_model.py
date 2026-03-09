@@ -1,6 +1,5 @@
 ﻿# tests/test_model.py
 
-import pytest
 import joblib
 import pandas as pd
 from pathlib import Path
